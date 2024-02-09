@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.figuramotion.figuramotion.Figures3DController"
+      alignment="CENTER"
+      prefHeight="600.0" prefWidth="800.0">
+
+    <Pane fx:id="figuresPane" prefWidth="600" prefHeight="300"/>
+
+    <Button fx:id="backButton" text="Back to home" onAction="#onBackToHomeButtonClick"/>
+</VBox>
